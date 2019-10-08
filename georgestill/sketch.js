@@ -41,14 +41,14 @@ function draw()
       if (i%2==0){
         //stroke(255,0,0, 50-2*i);
         if(fill){
-          // fill(255,0,0, 14);
+          fill(255,0,0, 1);
         }
         polygon(0, 0, i*3, 50);
       }
       else {
         if(fill){
           //stroke(255,125,0,50-2*i);
-          // fill(255,125,25,15);
+          fill(100,125,225,1);
         }
         polygon(0, 0, i*3, verts);
       }
